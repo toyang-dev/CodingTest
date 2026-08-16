@@ -48,8 +48,8 @@ PR 제목에는 **이름 + 프로그래머스 + 오늘 푼 문제 수**를 작�
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/sanchaehwa">
-        <img src="https://avatars.githubusercontent.com/sanchaehwa" width="140px;" alt="sanchaehwa"/>
+      <a href="https://github.com/young0311">
+        <img src="https://avatars.githubusercontent.com/young0311" width="140px;" alt="young0311"/>
       </a>
     </td>
     <td align="center">
@@ -90,10 +90,10 @@ PR 제목에는 **이름 + 프로그래머스 + 오늘 푼 문제 수**를 작�
 - 자정 기준으로 그날 PR(또는 머지된 커밋)이 없으면 미해결로 간주합니다.
 - 주기적으로(예: 매주 일요일) 정산합니다.
 
-#### 벌금 현황
+#### 벌금 현황 (2026.08.14 기준)
 
 | 이름 | 벌금 |
 |------|------|
 | 평강 | 0원 |
-| 환희 | 0원 |
-| 화영 | 0원 |
+| 환희 | 2000원 |
+| 화영 | 1000원 |
