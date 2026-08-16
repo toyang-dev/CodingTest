@@ -1,81 +1,99 @@
-# toyang-codingTest
+### Toyang-Algorithm-Study
 
-팀원들과 함께 진행하는 코딩 테스트 연습 저장소입니다.
-각자 문제를 따로 풀고, 자신의 폴더에 커밋/푸시하는 방식으로 운영합니다.
+> 취업 준비를 위한 코딩 테스트 문제 풀이 저장소입니다.
+매일 꾸준히 문제를 풀고 기록하며 코딩 테스트를 준비합니다.
 
-## 진행 방식
 
-- 문제는 **각자 따로** 풉니다. 
-- `main`에 직접 push하지 않고, **PR(Pull Request)로 병합**합니다.
-  1. 본인 이름으로 브랜치 생성 (예: `hwanhui`, 또는 `hwanhui/baekjoon-1000`)
-  2. 아래 폴더 구조에 맞게 자신의 폴더에서 작업 후 커밋
-  3. `main`으로 PR 생성 → 관리자가 확인 후 머지
-- PR은 문제 하나당 하나씩 올려도 되고, 하루치를 모아서 올려도 됩니다.
-- 머지된 뒤에는 자유롭게 서로의 코드를 열람/리뷰해도 됩니다.
+#### 🚀 진행 방식
 
-## 팀원
+##### 1. 백준허브 설치 및 저장소 연결
 
-평강, 환희, 혜원, 화영
+1. Chrome 웹 스토어에서 **백준허브(BaekjoonHub)** 확장 프로그램을 설치합니다.
+2. Chrome 우측 상단의 확장 프로그램 아이콘에서 **백준허브**를 선택합니다.
+3. `Authenticate` 버튼을 클릭하여 본인의 GitHub 계정으로 로그인합니다.
+4. 코딩 테스트 저장소를 **Fork**합니다.
+5. 백준허브에서 **본인이 Fork한 저장소**를 연결합니다.
+6. 정상적으로 저장소가 연결되었는지 확인한 뒤 문제 풀이를 진행합니다.
 
-## 문제 사이트
+##### 2. 문제 풀이
 
-문제는 **[프로그래머스](https://school.programmers.co.kr/learn/challenges)**의 "코딩테스트 연습"에서 풉니다. 
+- 문제 풀이 후 백준허브를 통해 본인이 연결한 Fork 저장소에 풀이를 저장합니다.
+- 자신의 폴더에서만 작업합니다.
+- 다른 팀원의 폴더 및 브런치는 수정하지 않습니다.
 
-- 접속: https://school.programmers.co.kr/learn/challenges
-- 회원가입 후 좌측 메뉴에서 난이도(Lv.1 ~ Lv.5)별로 문제를 골라 풀면 됩니다.
-- 처음이라면 Lv.1부터 순서대로 풀어보는 걸 추천합니다.
 
-## 폴더 구조
+##### 3. PR 생성
 
+- 문제 풀이 후 **본인 이름으로 된 브랜치를 향해 PR(Pull Request)을 생성**합니다.
+  - 예: `화영`, `평강`, `환희`
+- `main` 브랜치에는 **Merge하지 않습니다.**
+- PR은 반드시 **본인 이름 브랜치에만 Merge**합니다.
+- 해당 날짜에 생성한 PR은 **하루가 지나기 전에 Merge**합니다.
+
+##### ✅ PR 제목
+
+PR 제목에는 **이름 + 프로그래머스 + 오늘 푼 문제 수**를 작성합니다.
+
+```text
+화영 - 프로그래머스 3문제
+평강 - 프로그래머스 2문제
+환희 - 프로그래머스 1문제
 ```
-src/
-  ├─ 평강/
-  │   ├─ level1/문제명/Solution.java
-  │   ├─ level2/
-  │   ├─ level3/
-  │   ├─ level4/
-  │   └─ level5/
-  ├─ 환희/
-  │   ├─ level1/
-  │   ├─ level2/
-  │   ├─ level3/
-  │   ├─ level4/
-  │   └─ level5/
-  ├─ 혜원/
-  │   ├─ level1/
-  │   ├─ level2/
-  │   ├─ level3/
-  │   ├─ level4/
-  │   └─ level5/
-  └─ 화영/
-      ├─ level1/
-      ├─ level2/
-      ├─ level3/
-      ├─ level4/
-      └─ level5/
-```
+#### 팀원
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/leepg038292">
+        <img src="https://avatars.githubusercontent.com/leepg038292" width="140px;" alt="leepg038292"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/sanchaehwa">
+        <img src="https://avatars.githubusercontent.com/sanchaehwa" width="140px;" alt="sanchaehwa"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/kimhwanhui12">
+        <img src="https://avatars.githubusercontent.com/kimhwanhui12" width="140px;" 
+          alt="kimhwanhui12"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>이평강</b>
+    </td>
+    <td align="center">
+      <b>양화영</b>
+    </td>
+    <td align="center">
+      <b>김환희</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+    <img src="https://img.shields.io/badge/Java-F2712B?style=flat-square&logo=OpenJDK&logoColor=white"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Java-F2712B?style=flat-square&logo=OpenJDK&logoColor=white"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Java-F2712B?style=flat-square&logo=OpenJDK&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
-- 최상위에 **본인 이름 폴더**를 만들고, 그 안에서만 작업합니다.
-- 그 아래는 `난이도(level1 ~ level5)/문제명` 순서로 정리합니다.
-- 남의 폴더는 건드리지 않습니다.
-
-## 커밋 규칙 (제안)
-
-- 커밋 메시지 예시: `[프로그래머스 Lv1] 문제명 풀이`
-- 하루치 문제를 몰아서 한 번에 커밋해도 되지만, 가능하면 문제 단위로 나눠 커밋하는 걸 권장합니다.
-
-## 벌금 규칙 🚨
+#### 벌금 규칙 🚨
 
 - **하루에 한두 문제 이상을 풀지 않으면 벌금 1,000원**
+- 벌금은 스터디 운영비용(간식비, 스터디룸 대여비 등)으로 사용할 예정입니다.
 - 자정 기준으로 그날 PR(또는 머지된 커밋)이 없으면 미해결로 간주합니다.
 - 주기적으로(예: 매주 일요일) 정산합니다.
 
-### 벌금 현황
+#### 벌금 현황
 
 | 이름 | 벌금 |
 |------|------|
 | 평강 | 0원 |
 | 환희 | 0원 |
-| 혜원 | 0원 |
 | 화영 | 0원 |
-
